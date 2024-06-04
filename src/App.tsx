@@ -7,7 +7,7 @@ function App() {
 	const { toggleTheme } = useThemeContext();
 	return (
 		<>
-			<header style={{ textAlign: 'right', padding: '2rem' }}>
+			<header aria-label='Site Header' style={{ textAlign: 'right', padding: '2rem' }}>
 				<Button onClick={toggleTheme}>Toggle Dark Mode</Button>
 			</header>
 			<main style={{ height: '100vh' }}>
