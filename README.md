@@ -1,6 +1,10 @@
-# React + TypeScript + Vite
+# Cauldron + React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a basic little app built with Vite + React + Typescript for a developer friendly experience. Components are built with Deque's Cauldron Component library to ensure Accessibility of components is acheived. :tada:
+
+
+## Node Version
+Use node v18.18.2>=
 
 Currently, two official plugins are available:
 
