@@ -4,6 +4,16 @@ version: 2.1
 orbs:
   node: circleci/node@5
 jobs:
+  run_tests:
+    docker:
+      - image: cimg/node:16.10
+    steps:
+      - checkout
+      - node/install-packages:
+          pkg-manager: npm
+      - run:
+          name: Run tests
+          command: npm test
   build-node:
     # Build node project
     executor: node/default
@@ -36,6 +46,7 @@ workflows:
   build:
     jobs:
       - build-node
+      - run_tests
     # - deploy:
     #     requires:
     #       - build-node
