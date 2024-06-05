@@ -8,9 +8,9 @@ const MyTabs = () => {
 	return (
 		<>
 			<Tabs aria-label='Horizontal Tabs'>
-				<Tab target={tabRef1}>Tab 1</Tab>
-				<Tab target={tabRef2}>Tab 2</Tab>
-				<Tab target={tabRef3}>Tab 3</Tab>
+				<Tab target={tabRef1}>Tab & TabPanel Label 1</Tab>
+				<Tab target={tabRef2}>Tab & TabPanel Label 2</Tab>
+				<Tab target={tabRef3}>Tab & TabPanel Label 3</Tab>
 			</Tabs>
 			<TabPanel ref={tabRef1}>Panel for Horizontal Tabs (1)</TabPanel>
 			<TabPanel ref={tabRef2}>Panel for Horizontal Tabs (2)</TabPanel>
