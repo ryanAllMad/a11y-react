@@ -1,34 +1,7 @@
-# Cauldron + React + TypeScript + Vite
+# WAI - ARIA APG PATTERNS - VITEST TESTING SUITE
 
-This is a basic little app built with Vite + React + Typescript for a developer friendly experience. Components are built with Deque's Cauldron Component library to ensure Accessibility of components is acheived. :tada:
+This project utilizes [Dequeu's Cauldron](https://cauldron.dequelabs.com/) components to set up a Vitest testing suite based on the [WAI-ARIA Authoring Practices Patterns found here](https://www.w3.org/WAI/ARIA/apg/patterns/). I aim to make this a fully comprehensive accessiblity unit testing guide to help you test your patterns for all automation avaialable accessibility tests.
 
 
 ## Node Version
 Use node v18.18.2>=
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list

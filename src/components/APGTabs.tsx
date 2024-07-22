@@ -1,7 +1,7 @@
 import React, { useRef } from 'react';
 import { Tabs, Tab, TabPanel } from '@deque/cauldron-react';
 
-const MyTabs = () => {
+const APGTabs = () => {
 	const tabRef1 = useRef() as React.RefObject<HTMLDivElement>
 	const tabRef2 = useRef() as React.RefObject<HTMLDivElement>
 	const tabRef3 = useRef() as React.RefObject<HTMLDivElement>
@@ -19,4 +19,4 @@ const MyTabs = () => {
 	);
 };
 
-export default MyTabs
+export default APGTabs

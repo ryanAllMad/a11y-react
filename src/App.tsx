@@ -1,5 +1,5 @@
 import { useThemeContext, Button } from '@deque/cauldron-react';
-import MyTabs from './components/MyTabs';
+import MyTabs from './components/APGTabs';
 import '@deque/cauldron-styles';
 import '@deque/cauldron-react/lib/cauldron.css';
 

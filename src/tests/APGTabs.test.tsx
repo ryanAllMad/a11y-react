@@ -1,7 +1,7 @@
 import { describe, it, expect } from 'vitest';
 import { render, screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
-import MyTabs from '../components/MyTabs';
+import MyTabs from '../components/APGTabs';
 
 describe('MyTabs test Aria roles, states and properties', () => {
 	it('The tablist element has an accessible label.', () => {
